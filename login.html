@@ -1,0 +1,85 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <script src="validation.js"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="validation.js"> -->
+    <script type="text/javascript">
+    	function validation(){
+	var u= document.login.username.value;
+	var p=document.login.password.value;
+	if(u==""|| p==""){
+		alert("Both field should not be blank");
+		return;
+	}
+		if(p.length<6 || p.length>12){
+			alert("password must be between 6 to 12 characters");
+			return;
+		
+	}
+	var str=u.slice(0,1);
+	if(u.slice(0,1)=="_" || u.slice(0,1)=="@"|| str.match(/[0-9]/g)!=null)
+	{
+		alert("username should not start with _,@and number");
+		return;
+	}
+
+  if( u=="myuserid" &&  p== "mypswrd")
+  	
+  {
+    window.open('survey.html')
+    return;/opens the target page while Id & password matches/
+  }
+  else if( u=="aarzu@12" &&  p== 123456)
+  	
+  {
+    window.open('survey.html')
+    return;/opens the target page while Id & password matches/
+  }
+  else if( u=="aakriti@12" &&  p==789654)
+  	
+  {
+    window.open('survey.html')
+    return;/opens the target page while Id & password matches/
+  }
+ else
+ {
+   alert("Error Password or Username")
+   return;/displays error message/
+  }
+  
+}
+    </script>
+</head>
+<body style= " margin: 0" >
+	<!-- <script src="validation.js"> -->
+
+<nav>
+    <ul>
+		<li><a style="text-decoration: none" href=""> MODELS</a></li>
+
+		<li ><a style="text-decoration: none" href=""> OWNERSHIP</a></li>
+		<li ><a style="text-decoration: none" href=""> SPORTS</a></li>
+		<li  ><a style="text-decoration: none" href=""> ESPORTS</a></li>
+	</ul>
+	<img style="padding-right: 2px;padding-bottom: 2ppx" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkaXOQuLA372YLMzhq3bIJi5Kqw6bAa6PCgcHhwE86WKh-f4OPCd5aZHubRAuqFLH6pgs&usqp=CAU" width="120px" height="40px" float=right ></div>
+
+
+
+</nav>
+
+	<img src="https://www.lambocars.com/wp-content/uploads/2014/01/adv1_wheels_huracan_5.jpg" width="100%" height="55%" >
+	<!-- <img src="https://www.lambocars.com/images/lambonews/2015_huracan_spyder_5.jpg" width="100%" height="80%"> -->
+	<!-- <img src="https://www.lambocars.com/images/lambonews/huracan_lp650_squadra_corse.jpg" width="100%" height="80%"> -->
+	<div class="all">
+		
+<div class="loginbox">
+<h1>Login</h1>
+<div class="form">
+	<form name="login" onsubmit=" validation()" >
+<input style="height: 35px;width: 366px" type="text" placeholder ="Username" name="username" value="">
+</div>
+<div class="form"><br>
+<input style="height: 35px;width: 366px" type="password" placeholder="password" name="password" value="">
+	</div><br>
+	<input style="width: 30%;background: none; border: 2px solid #4caf50; color: white;font-size: 30px; font-weight: bold;padding:4px;cursor: pointer "  class="btn" type="submit" name="btn" value="Login"></form>
+	</div></div>

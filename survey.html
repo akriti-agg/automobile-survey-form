@@ -1,0 +1,620 @@
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <style type="text/css">
+        body{
+            background-image: url(https://i.pinimg.com/originals/c0/2b/5e/c02b5e52362d48e695236c7144914228.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /table.rate,tr,td{/
+            /border:solid;/
+        /}/
+        .rate{
+            border:solid;
+        }
+        
+    </style>
+    <script type="text/javascript">
+
+    
+function is_checked()
+{ 
+  var yes1=document.getElementById('yes1').checked;
+  var no1=document.getElementById('no1').checked;
+  if (yes1==false && no1==false) {
+    alert('please select an option');
+    return false;
+  }
+
+  var yes2=document.getElementById('yes2').checked;
+  var no2=document.getElementById('no2').checked;
+  if (yes2==false && no2==false) {
+    alert('please select an option');
+     return false;
+  }
+
+  var yes3=document.getElementById('yes3').checked;
+  var no3=document.getElementById('no3').checked;
+  if (yes3==false && no3==false) {
+    alert('please select an option');
+     return false;
+  }
+
+  var yes4=document.getElementById('yes4').checked;
+  var no4=document.getElementById('no4').checked;
+  if (yes4==false && no4==false) {
+    alert('please select an option');
+     return false;
+  }
+var yes5=document.getElementById('yes5').checked;
+  var no5=document.getElementById('no5').checked;
+  if (yes5==false && no5==false) {
+    alert('please select an option');
+     return false;
+  }
+  var yes6=document.getElementById('yes6').checked;
+  var no6=document.getElementById('no6').checked;
+  if (yes6==false && no6==false) {
+    alert('please select an option');
+     return false;
+  }
+  
+
+  var a=document.getElementById('Check1').checked;
+  var b=document.getElementById('Check2').checked;
+  var c=document.getElementById('Check3').checked;
+  var d=document.getElementById('Check4').checked;
+
+   var a1=document.getElementById('Check21').checked;
+  var b1=document.getElementById('Check22').checked;
+  var c1=document.getElementById('Check23').checked;
+  var d1=document.getElementById('Check24').checked;
+
+   var a2=document.getElementById('Check31').checked;
+  var b2=document.getElementById('Check32').checked;
+  var c2=document.getElementById('Check33').checked;
+  var d2=document.getElementById('Check34').checked;
+   var a3=document.getElementById('Check41').checked;
+  var b3=document.getElementById('Check42').checked;
+  var c3=document.getElementById('Check43').checked;
+  var d3=document.getElementById('Check44').checked;
+
+   var a4=document.getElementById('Check51').checked;
+  var b4=document.getElementById('Check52').checked;
+  var c4=document.getElementById('Check53').checked;
+  var d4=document.getElementById('Check54').checked;
+
+   var a5=document.getElementById('Check61').checked;
+var b5=document.getElementById('Check62').checked;
+  var c5=document.getElementById('Check63').checked;
+  var d5=document.getElementById('Check64').checked;
+
+   var a6=document.getElementById('Check71').checked;
+  var b6=document.getElementById('Check72').checked;
+  var c6=document.getElementById('Check73').checked;
+  var d6=document.getElementById('Check74').checked;
+  
+
+   var a7=document.getElementById('Check81').checked;
+  var b7=document.getElementById('Check82').checked;
+  var c7=document.getElementById('Check83').checked;
+  var d7=document.getElementById('Check84').checked;
+
+   var a8=document.getElementById('Check91').checked;
+  var b8=document.getElementById('Check92').checked;
+  var c8=document.getElementById('Check93').checked;
+  var d8=document.getElementById('Check94').checked;
+
+  
+  
+if(a==false && b==false && c==false&& d==false ){
+  alert('please select a checkbox');
+return false;
+}
+  
+else if(a1==false && b1==false && c1==false&& d1==false ){
+  alert('please select a checkbox');
+return false;
+}
+  
+else if(a2==false && b2==false && c2==false&& d2==false ){
+  alert('please select a checkbox');
+return false;
+}
+  
+else if(a3==false && b3==false && c3==false&& d3==false ){
+  alert('please select a checkbox');
+return false;
+}
+  
+else if(a4==false && b4==false && c4==false&& d4==false ){
+  alert('please select a checkbox');
+return false;
+}
+  
+else if(a5==false && b5==false && c5==false&& d5==false ){
+  alert('please select a checkbox');
+return false;
+}
+  
+else if(a6==false && b6==false && c6==false&& d6==false ){
+  alert('please select a checkbox');
+return false;
+}
+  
+else if(a7==false && b7==false && c7==false&& d7==false ){
+  alert('please select a checkbox');
+return false;
+}
+  
+else if(a8==false && b8==false && c8==false&& d8==false ){
+  alert('please select a checkbox');
+return false;
+}
+else
+{
+  
+document.querySelector(".submit").addEventListener('click',function(){
+  swal("Succesful", "your feedback has been Succesfully recorded", "success");
+});
+}
+// if( is_checked()==true) {
+
+// document.querySelector(".submit").addEventListener('click',function(){
+  // swal("Succesful", "your feedback has been Succesfully recorded", "success");
+// });
+
+// }
+
+}
+
+</script>
+</head>
+<body style= " margin: 0; position: relative">
+    <!-- <center><img src="https://robbreport.com/wp-content/uploads/2020/05/12.jpg" width="300px" height="200px"></center> -->
+    <!-- <center><h1 style="font-size: 100px;font-weight: bold;color: white;border-bottom: solid #F0EDE6">welcome!</h1> -->
+        <div style="background-color: black;color: #F0EDE6">
+            <img style="float: left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkaXOQuLA372YLMzhq3bIJi5Kqw6bAa6PCgcHhwE86WKh-f4OPCd5aZHubRAuqFLH6pgs&usqp=CAU" width="200px" height="100px">
+            <center><h1 style="font-size: 100px;font-weight: bold;margin-right: 250px">Welcome!</h1></center>
+        </div>
+    <center><hp style="font-size: 30px;font-weight: bold;color:#F0EDE6;font-family: arial;text-decoration: underline;text-decoration-color: #403A39">Customer Satisfaction Form</p></center>
+   <center> <p style="font-size: 15px;font-weight: bold;color: #B53225 ;font-family: arial;margin-right: 390px">please take a few minutes to complete this satisfaction survey.</p></center>
+    
+        
+    <center>
+         <table style=" ">
+                    <form onsubmit="is_checked()"><tr>
+            <td style="color: white">First Name:&nbsp&nbsp</td>
+            <td style="width: 300px"><input style="border-radius: 5px;border-color:#F0EDE6 " type="text" size="30" required></td>
+            <!-- <td style="color: white"> Last Name</td><td></td> -->
+            <td style="color: white"> &nbsp&nbspLast Name:&nbsp&nbsp</td>
+            <td><input style="border-radius: 5px;border-color:#F0EDE6 " type="text" size="30" required ></td>
+        </tr>
+        <tr>
+            <td style="color: white">Phone number:&nbsp&nbsp</td>
+            <td><input style="border-radius: 5px;border-color:#F0EDE6 " type="number" minlength="9" required></td>
+        </tr>
+   </table>
+    <div style="margin-right: 650px"><label style="font-size: 15px;color: white;margin-left: 0px">please keep me anonymous</label>
+    <input style="" type="checkbox" name="anonymous"></div>
+    <div style="margin-right:530px;color: white" >
+        <lable  style="font-size: 18px;color:white">May we contact you via email?</lable>
+        <input type="radio" name="choose" id="yes1">Yes
+                    <input type="radio" name="choose" id="no1">No<br></div>
+
+ <div style="margin-right: 440px;;color: white"><lable  style="font-size: 18px;color:white">May we use your comments as a testimonil?</lable>
+        <input type="radio" name="choose1" id="yes2">Yes
+                    <input type="radio" name="choose1" id="no2">No
+                    
+    </div>
+    <label style="color:#B53225 ;font-size: 25px;margin-right: 550px">Please Rate your experience.</label><br>
+    <label style="color:#F0EDE6;font-size: 18px;margin-right: 520px">Agree/Disagree with the following statements</label>
+    <form action="swal("Good job!", "You clicked the button!", "success");" ><table border="1" cellspacing="0" style="margin-right: 10px;border-width: 1px;border-color:#DBD8D2 ">
+        <tr>
+            <td style="width: 250px;background-color:#DBD8D2;height: 60px;text-align: center;font-size: 30px;font-weight: bold  ">
+               &nbsp&nbsp
+            </td>
+            <td style="width:130px;background-color:#DBD8D2;height: 60px;text-align: center;font-size: 20px;font-weight: bold" >
+                excellent
+            </td>
+            <td style="width:130px;background-color:#DBD8D2;height: 60px;text-align: center;font-size: 20px;font-weight: bold">
+                very good
+            </td>
+            <td style="width: 130px;background-color:#DBD8D2;height: 60px;text-align: center;font-size: 20px;font-weight: bold">
+                good
+            </td>
+            <td style="width: 130px;background-color:#DBD8D2;height: 60px;text-align: center;font-size: 20px;font-weight: bold">
+                average
+            </td>
+        </tr>
+         <tr>
+            <td style="width: 300px;height: 60px;text-align: center;font-weight: bold;color:#F0EDE6 ">
+               Regestration process was easy and handles efficiently
+            </td>
+            
+            <td>
+            
+                <div>
+                  <input style="zoom:2;margin-left: 20px" type="checkbox" class="custom1" id="Check1" >
+                 
+              </div>
+            
+            </td>
+            <td style="width:100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom1" id="Check2" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom1" id="Check3" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom1" id="Check4" >
+                 
+              </div>
+              <script type="text/javascript">
+     $('.custom1').on('change', function() { 
+         $('.custom1').not(this).prop('checked', false);   
+     }); 
+  </script>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 300px;height: 60px;text-align: center;font-weight: bold;color:#F0EDE6">
+               How satisfy are you with the purchase of your new car at your premises?
+            </td>
+            
+            <td>
+            
+                <div>
+                  <input style="zoom:2;margin-left: 20px" type="checkbox" class="custom2" id="Check21" >
+                 
+              </div>
+            
+            </td>
+            <td style="width:100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom2" id="Check22" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom2" id="Check23" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom2" id="Check24" >
+                 
+              </div>
+              <script type="text/javascript">
+     $('.custom2').on('change', function() { 
+         $('.custom2').not(this).prop('checked', false);   
+     }); 
+  </script>
+            </td>
+        </tr>
+         <tr>
+            <td style="width: 300px;height: 60px;text-align: center;font-weight: bold;color:#F0EDE6">
+               How satisfy are you with the punctuality and the friendliness of the sales person?
+            </td>
+            
+            <td>
+            
+                <div>
+                  <input style="zoom:2;margin-left: 20px" type="checkbox" class="custom3" id="Check31" >
+                 
+              </div>
+            
+            </td>
+            <td style="width:100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom3" id="Check32" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom3" id="Check33" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom3" id="Check34" >
+                 
+              </div>
+              <script type="text/javascript">
+     $('.custom3').on('change', function() { 
+         $('.custom3').not(this).prop('checked', false);   
+     }); 
+  </script>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 300px;height: 60px;text-align: center;font-weight: bold;color:#F0EDE6">
+               Did you like the test drive?with respect to your individual requirements how satisy are you with the test drive?
+            </td>
+            
+            <td>
+            
+                <div>
+                  <input style="zoom:2;margin-left: 20px" type="checkbox" class="custom4" id="Check41" >
+                 
+              </div>
+            
+            </td>
+            <td style="width:100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom4" id="Check42" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom4" id="Check43" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom4" id="Check44" >
+                 
+              </div>
+              <script type="text/javascript">
+     $('.custom4').on('change', function() { 
+         $('.custom4').not(this).prop('checked', false);   
+     }); 
+  </script>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 300px;height: 60px;text-align: center;font-weight: bold;color:#F0EDE6">
+                Regarding your sales experience, how satisfied are you with giving you a dedicated and personal reatment.
+            </td>
+            
+            <td>
+            
+                <div>
+                  <input style="zoom:2;margin-left: 20px" type="checkbox" class="customd5" id="Check51" >
+                 
+              </div>
+            
+            </td>
+            <td style="width:100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="customd5" id="Check52" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="customd5" id="Check53" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="customd5" id="Check54" >
+                 
+              </div>
+              <script type="text/javascript">
+     $('.customd5').on('change', function() { 
+         $('.custom5').not(this).prop('checked', false);   
+     }); 
+  </script>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 300px;height: 60px;text-align: center;font-weight: bold;color:#F0EDE6">
+                how satisfied are you with the lemborghini finacial service option(i.e financing leasing and insurance?
+            </td>
+            
+            <td>
+            
+                <div>
+                  <input style="zoom:2;margin-left: 20px" type="checkbox" class="custom6" id="Check61" >
+                 
+              </div>
+            
+            </td>
+            <td style="width:100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom6" id="Check62" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom6" id="Check63" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom6" id="Check64" >
+                 
+              </div>
+              <script type="text/javascript">
+     $('.custom6').on('change', function() { 
+         $('.custom6').not(this).prop('checked', false);   
+     }); 
+  </script>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 300px;height: 60px;text-align: center;font-weight: bold;color:#F0EDE6">
+                how satisfied are you with the fulfillment of all the commitments made by the sales person?
+            </td>
+            
+            <td>
+            
+                <div>
+                  <input style="zoom:2;margin-left: 20px" type="checkbox" class="custom7" id="Check71" >
+                 
+              </div>
+            
+            </td>
+            <td style="width:100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom7" id="Check72" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom7" id="Check73" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom7" id="Check74" >
+                 
+              </div>
+              <script type="text/javascript">
+     $('.custom7').on('change', function() { 
+         $('.custom7').not(this).prop('checked', false);   
+     }); 
+  </script>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 300px;height: 60px;text-align: center;font-weight: bold;color:#F0EDE6">
+                how satisfied are you with the our activities to make car delivery a special treat?
+            </td>
+            
+            <td>
+            
+                <div>
+                  <input style="zoom:2;margin-left: 20px" type="checkbox" class="custom8" id="Check81" >
+                 
+              </div>
+            
+            </td>
+            <td style="width:100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom8" id="Check82" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom8" id="Check83" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom8" id="Check84" >
+                 
+              </div>
+              <script type="text/javascript">
+     $('.custom8').on('change', function() { 
+         $('.custom8').not(this).prop('checked', false);   
+     }); 
+  </script>
+            </td> 
+        </tr>
+        <tr>
+            <td style="width: 300px;height: 60px;text-align: center;font-weight: bold;color:#F0EDE6">
+                how satisfied are you with the salesperson detailed explanation of the car?
+            </td>
+            
+            <td>
+            
+                <div>
+                  <input style="zoom:2;margin-left: 20px" type="checkbox" class="custom9" id="Check91" >
+                 
+              </div>
+            
+            </td>
+            <td style="width:100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom9" id="Check92" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom9" id="Check93" >
+                 
+              </div>
+            </td>
+            <td style="width: 100px;height: 60px;text-align: center">
+                <div>
+                  <input style="zoom:2;margin-left: 8px" type="checkbox" class="custom9" id="Check94" >
+                 
+              </div>
+              <script type="text/javascript">
+      $('.custom9').on('change', function() {  
+          $('.custom9').not(this).prop('checked', false);    
+     });  
+   </script> 
+            </td> 
+        </tr>
+
+
+    </table><br>
+     
+   
+    <div style="margin-right: 300px;color: white" >
+        <lable  style="font-size: 18px;color:white">Did you get the information about the accessories details and availability?</lable><br></div>
+       <div > <input style="zoom:1.8" type="radio" name="select"  id="yes3"><lable style="font-size: 18px;color:white">Yes&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input style="zoom:1.8" type="radio" name="select" id="no3">No<br></div>
+ <div style="margin-right: 130px;color: white" >
+        <lable  style="font-size: 18px;color:white">were lemborghini financial service options,lemborghini secure and lemborghini service inclusive?</lable><br></div>
+       <div style="margin-right: 0px"> <input style="zoom:1.8" type="radio" name="select1"  id="yes4"><lable style="font-size: 18px;color:white">Yes&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input style="zoom:1.8" type="radio" name="select1" id="no4">No<br></div>
+                     <div style="margin-right: 66px;color: white" >
+        <lable  style="font-size: 18px;color:white">Would you recommend us to your friend or aquaitance having in mind your experience with our premises? </lable><br></div>
+        <div><input style="zoom:1.8" type="radio" name="select2"  id="yes5"><lable style="font-size: 18px;color:white">Yes&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input style="zoom:1.8" type="radio" name="select2" id="no5">No<br></div>
+
+
+  <div style="margin-right: 320px;color: white" >
+        <lable  style="font-size: 18px;color:white">Were you offered a road test of your car prior to the delivery of the car?</lable><br></div>
+        <div><input style="zoom:1.8" type="radio" name="select3"  id="yes6"><lable style="font-size: 18px;color:white">Yes&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input style="zoom:1.8" type="radio" name="select3" id="no6">No<br></div>
+<p style="font-size: 20px;color:#B53225">(Thank you for your valuable feedback...)</p>
+<button class="submit" style=" background-color: :none;border-color:;color:black;font-weight: bold;border-radius: 20px;  width: 200px;height: 40px;font-size: 20px" type="submit" onclick=" return is_checked()"  > Submit</button><br><br><br><br><br>
+<!-- <script type="text/javascript"> -->
+  
+     <!-- document.querySelector(".submit").addEventListener('click', function(){  -->
+   <!-- swal("Succesful", "your feedback has been Succesfully recorded", "success");  -->
+ <!-- });  --> 
+ 
+  <!-- <script>  -->
+ <!-- // var sweetalert= is_checked()  -->
+<!-- // if(var==true){ -->
+
+<!-- // document.querySelector(".submit").addEventListener('click',function(){ -->
+  <!-- swal("Succesful", "your feedback has been Succesfully recorded", "success"); -->
+<!-- // }); -->
+
+ <!-- }</script> -->
+
+</form>
+<div style="color: white;background-color: black">
+    <table style="color: white">
+        <tr>
+            <td style="text-align: center;width: 100px">COMPANY</td>
+            <td  style="text-align: center;width: 100px">CARRIER</td><td  style="text-align: center;width: 100px">CONTACT US</td><td  style="text-align: center;width: 100px">MEDIA CENTER</td><td  style="text-align: center;width: 100px">PRIVACY & LEGAL</td><td  style="text-align: center;width: 100px">SITEMAP</td><td  style="text-align: center;width: 100px">NEWSLETTER</td>
+        </tr>
+    </table><br><br>
+    <p>Copywright@ 2020 Automobili Lemborghini S.p.A a sole shareholder company part of audi Group.<br>
+    All rights reserved.VAT.no.IT 2345496</p>
+    
+</div>
